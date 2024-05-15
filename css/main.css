@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    background-color: #eeeeeebd;
+}
+
+section{
+    background-color: #c5ddfe;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+}
+section .text{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid 1px #9C27B0;
+    border-radius: 10px;
+}
+section .text h1{
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #222222d1;;
+}
+section .text p{
+    font-weight: 400;
+    font-style: italic;
+}
+
+section .text button{
+    border: none;
+    border-radius: 7px;
+    padding: 13px 11px;
+    width: fit-content;
+    color: white;
+    background-color: #8b3dff;
+    text-transform: uppercase;
+    
+}
+
+section .text button:hover{
+    background-color: #663399b3;
+}
+
+section .quote{
+    width: 100%;
+    background-color: #2196F3;
+    border-radius: 10px;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+section .quote p{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 700;
+}
+section .quote span
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+

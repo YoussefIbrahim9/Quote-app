@@ -1,0 +1,41 @@
+@media (min-width:992px) {
+
+    body{
+        height: 100vh;
+    }
+
+    section .text{
+        width: 50%;
+        padding: 12px;
+        height: 350px;
+        margin-bottom: 0;
+    }
+    section .text h1{
+        font-size: 1.57rem;
+        margin-bottom: 5px;
+    }
+    section .text p{
+
+        font-size: 1.1rem;
+        margin: 5px 0;
+    }
+    
+    section .text button{
+        padding: 17px;    
+    }
+    section .quote{
+        width: 48%;
+        
+    }
+    
+}
+
+@media (min-width:1220px){
+    section .text h1{
+        font-size: 2rem;
+    }
+    section .text p{
+
+        font-size: 1.2rem;
+    }
+}
